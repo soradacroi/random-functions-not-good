@@ -23,5 +23,5 @@ print(l)
 
 x = 0
 for i in l:
-     x = (50-i[0])**2
-print((x/9)**0.5)
+     x += (50-i[0])**2
+print((x/len(l))**0.5)
